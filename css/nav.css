@@ -22,7 +22,7 @@
   align-items: center;
   width: 100%;
 
-  padding-left: 70px;
+  padding-left: 55px;
   padding-right: 70px;
   padding-top: 23px;
 
@@ -55,7 +55,7 @@
 .logo {
   display: inline-block;
   margin-top: 10px;
-  margin-left: 20px;
+
   cursor: pointer;
   font-size: 35px;
   font-family: DIN Alternate Bold;
@@ -64,7 +64,7 @@
 .navbar-toggle {
     position: absolute;
     top: 45px;
-    right: 70px;
+    right: 50px;
     cursor: pointer;
     font-size: 24px;
 }
@@ -79,12 +79,13 @@
   font-size: 35px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 415px) {
     .navbar {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
         height: 70px;
+
         align-items: center;
     }
     .main-nav {
@@ -102,6 +103,7 @@
     }
     .logo {
         margin-top: 0;
+        
     }
    .navbar-toggle {
        display: none;

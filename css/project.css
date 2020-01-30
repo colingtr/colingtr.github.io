@@ -65,7 +65,7 @@ iframe{
   width: 100%;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 411px){
   .inner{
     display: flex;
     flex-direction: column;
@@ -74,6 +74,9 @@ iframe{
   .innerObject{
     flex:1;
     width: 100%;
+  }
+  .text{
+    padding-bottom: 15px;
   }
 
 }
